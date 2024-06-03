@@ -4,6 +4,12 @@ description: Using the TankMate API service
 
 # TankMate API
 
+
+
+{% hint style="success" %}
+An API subscription costs $49 / year, per account. This subscription is managed and billed through the new TankMate web app / portal - due for release in July 2024.
+{% endhint %}
+
 {% hint style="info" %}
 Note: API keys are free to trial for 30 days. Thereafter, an API subscription will be required.
 {% endhint %}

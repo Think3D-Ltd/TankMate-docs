@@ -52,7 +52,7 @@ A **success message** should be displayed in the app after 5-10 seconds. The **L
 #### Error Messages after sending your SSID / password
 
 * Incorrect password - check your WiFi network password
-* Network error. TankMate sensors can only connect to **2.4GHz** networks. Combined 2.4 / 5GHz networks are also supported. Check your network details. [Further WiFi tips can be found here](check-connectivity-v2-and-r3w-wifi-sensors.md).
+* Network error. TankMate sensors can only connect to **2.4GHz** networks. Combined 2.4 / 5GHz networks are also supported. Check your network details. [Further WiFi tips can be found here](check-status-v2-and-r3w-wifi-sensors.md).
 
 {% hint style="danger" %}
 **NOTE:** WiFi passwords that include the **$ symbol** are not currently supported by TankMate sensors. We recommend modifying the password, or setting up a guest network with a different password.

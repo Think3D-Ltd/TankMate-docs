@@ -14,7 +14,7 @@ For assistance with setting up a new [R3 sensor see here](tankmate-user-guide/ta
 
 <summary>My app has not show any updated readings for a while. What should I do?</summary>
 
-On the main dashboard screen of the app - swipe down to refresh the data. If the **last reading date/time** was more than 24 hours ago, you may need to [check the sensor unit](wi-fi-connectivity/check-connectivity-v2-and-r3w-wifi-sensors.md) or the network connection. Common causes include:
+On the main dashboard screen of the app - swipe down to refresh the data. If the **last reading date/time** was more than 24 hours ago, you may need to [check the sensor unit](wi-fi-connectivity/check-status-v2-and-r3w-wifi-sensors.md) or the network connection. Common causes include:
 
 * An issue with the **WiFi network** (router turned off, new network name / password)&#x20;
 * Low battery on the sensor

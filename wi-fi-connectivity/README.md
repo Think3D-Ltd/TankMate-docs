@@ -21,6 +21,6 @@ For setting up a new sensor - see the section for V2 products here, or R3 produc
 [reconnect-r3-wi-fi-level-sensor.md](reconnect-r3-wi-fi-level-sensor.md)
 {% endcontent-ref %}
 
-{% content-ref url="check-connectivity-v2-and-r3w-wifi-sensors.md" %}
-[check-connectivity-v2-and-r3w-wifi-sensors.md](check-connectivity-v2-and-r3w-wifi-sensors.md)
+{% content-ref url="check-status-v2-and-r3w-wifi-sensors.md" %}
+[check-status-v2-and-r3w-wifi-sensors.md](check-status-v2-and-r3w-wifi-sensors.md)
 {% endcontent-ref %}
