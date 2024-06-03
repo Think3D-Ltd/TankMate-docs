@@ -6,21 +6,48 @@ description: Frequently asked questions
 
 ### New Sensors - Setup Issues
 
-For assistance with setting up a new [R3 sensor see here](tankmate-user-guide/tankmate-wifi-sensors/tankmate-r3-wifi-sensors/set-up-a-new-r3-sensor/)&#x20;
+For assistance with setting up a new sensor, see here for[ R3L sensor ](tankmate-user-guide/tankmate-r3-lte-cellular-sensors/set-up-a-new-r3l-lte-cellular-sensor.md)/ or here for the [R3W sensor](tankmate-user-guide/tankmate-wifi-sensors/tankmate-r3-wifi-sensors/set-up-a-new-r3w-wifi-sensor/)
 
-### Existing Sensors - Connectivity
+### TankMate App / Account
 
 <details>
 
 <summary>My app has not show any updated readings for a while. What should I do?</summary>
 
-On the main dashboard screen of the app - swipe down to refresh the data. If the **last reading date/time** was more than 24 hours ago, you may need to [check the sensor unit](wi-fi-connectivity/check-status-v2-and-r3w-wifi-sensors.md) or the network connection. Common causes include:
+On the main dashboard screen of the app - swipe down to refresh the data. If the **last reading date/time** was more than 24 hours ago, you may  or the network connection. Common causes include:
 
-* An issue with the **WiFi network** (router turned off, new network name / password)&#x20;
+* An issue with the **WiFi network** (router turned off, new network name / password), or a service issue with the cellular network (R3L sensors)&#x20;
 * Low battery on the sensor
 * WiFi credentials cleared / lost
+* For WiFi sensors - [check the status of a sensor unit](wi-fi-connectivity/check-status-v2-and-r3w-wifi-sensors.md)
+* For R3L cellular (LTE) sensors - [see here](tankmate-user-guide/tankmate-r3-lte-cellular-sensors/hardware-status-r3l-cellular-lte-sensor.md)
 
 </details>
+
+<details>
+
+<summary>I can log into the app, but no sensor is listed <strong>and no data is shown</strong> - the app prompts me to add a new sensor. Why?</summary>
+
+This usually indicates that:
+
+* You may have **created a second account** - in the app, go to **Settings > Account** and check which email you have signed in with.  If in doubt, log out, and try log in with a different email address!
+* Or - the sensor has actually been **deleted from your account** at some point - accessed via the Settings > Sensor / Tank Settings screen. You can add the sensor to your account again from the "Add New Sensor" screen.
+
+</details>
+
+<details>
+
+<summary>How do I connect the TankMate to a second / new phone?</summary>
+
+The TankMate unit **maintains a connection with your router / WiFi network** to be able to upload data to our servers - there is **no direct link to any mobile phone**.
+
+Any phone or web browser can log in and see the same tank data, provided you are using the **same TankMate login details (email + password)**. You do not need to create a second account to monitor the sensor on a second phone.
+
+* NOTE: using SIGN IN WITH APPLE will not support multiple phone logins
+
+</details>
+
+### WiFi Sensors
 
 <details>
 
@@ -36,20 +63,13 @@ See links below for reconnecting a TankMate product to a network:
 
 <details>
 
-<summary>My sensor appears to be connecting to the WiFi network, but no data has been transmitted. Why?</summary>
+<summary>How often should a TankMate WiFi sensor publish a reading?</summary>
 
-Check that the unit is running an **up-to-date firmware version**. [See here for details](wi-fi-connectivity/firmware-update-august-2023.md).
+By default, the R3W sensor will send an updated level reading **every 12 hours** (2 per day). This can be **adjusted** in the mobile app under **Settings > Sensor / Tank Settings > Update Frequency**. Having more readings per day will increase the accuracy of your daily usage calculations, but will reduce battery life.
 
-</details>
+For the **R3W WiFi** sensor, a reading can be published to the server every 15 minutes (96 readings per day).
 
-<details>
-
-<summary>I can log into the app, but no sensor is listed <strong>and no data is shown</strong> - it prompts me to add a new sensor. Why?</summary>
-
-This usually indicates that:
-
-* You may have **created a second account** - in the app, go to **Settings > Account** and check which email you have signed in with.  If in doubt, log out, and try log in with a different email address!
-* Or the sensor has been **deleted from the account** at some point - via the Settings > Sensor / Tank Settings screen. You can simply add the sensor again from the "Add New Sensor" screen.
+**If an alert is set**, the sensor will wake up to take a reading according to the reading interval set in the app (1 hour for WiFi sensors). If the alert threshold is broken, the sensor will connect and send data.
 
 </details>
 
@@ -67,27 +87,25 @@ On the main dashboard screen of the app - check the **received signal strength**
 
 <details>
 
-<summary>How often should the TankMate sensor publish a reading?</summary>
+<summary>My sensor appears to be connecting to the WiFi network, but no data has been transmitted. Why?</summary>
 
-By default, the sensor will send an updated level reading **every 12 hours** (2 per day). This can be **adjusted** in the mobile app under **Settings > Sensor / Tank Settings > Reading Frequency**. Having more readings per day will increase the accuracy of your daily water usage calculations, but will reduce battery life.
-
-For the **R3W WiFi** sensor, a reading can be published to the server every 15 minutes (96 readings per day).
-
-**If an alert is set**, the sensor will wake up to take a reading according to the reading interval set in the app (1 hour for WiFi sensors, adjustable for LTE). If the alert threshold is broken, the sensor will connect and send data.
-
-For an **R3L** **Cellular / LTE** sensor, the maximum number of connections per day is 4. However, the sensor can be set to take a **reading every 15, 30 or 60 minutes** to check if an alert threshold has been broken. This allows users to gather more data, and receive timely alerts - without wasting power on frequent cellular connections.
+* Check that the unit is running an **up-to-date firmware version**. [See here for details](wi-fi-connectivity/firmware-update-august-2023.md)
+* If your firmware is up-to-date, try **performing a hard reset** on your router can resolve issues with data throughput
+* Check the WiFi signal strength at the tank. [See here for details](wi-fi-connectivity/intermittent-data-issue-wifi.md)
 
 </details>
 
+### R3L Cellular (LTE) Sensors&#x20;
+
 <details>
 
-<summary>How do I connect the TankMate to a second / new phone?</summary>
+<summary>How often should a TankMate R3L Cellular (LTE) sensor publish a reading?</summary>
 
-The TankMate unit **maintains a connection with your router / WiFi network** to be able to upload data to our servers - there is **no direct link to any mobile phone**.
+By default, the R3L sensor will send an updated level reading **every 6 hours** (4 per day). This can be **adjusted** in the mobile app under **Settings > Sensor / Tank Settings > Update Frequency**. Having more readings per day will increase the accuracy of your daily usage calculations, but will reduce battery life.
 
-Any phone or web browser can log in and see the same tank data, provided you are using the **same TankMate login details (email + password)**. You do not need to create a second account to monitor the sensor on a second phone.
+For an **R3L** **Cellular / LTE** sensor, the maximum number of connections per day is **4**. However, the sensor can be set to take a **reading every 15, 30 or 60 minutes** to check if an alert threshold has been broken. This allows users to gather more data, and receive timely alerts - without wasting power on frequent cellular connections.
 
-* NOTE: using SIGN IN WITH APPLE will not support multiple phone logins
+**If an alert is set**, the sensor will wake up to take a reading according to the reading interval set in the app (15 / 30 / 60 mins for LTE). If the alert threshold is broken, the sensor will connect and send data.
 
 </details>
 
@@ -116,19 +134,25 @@ For existing sensors, you can also see the device ID in the TankMate app:
 * The device ID can be found on the **home screen** of the app once logged in. To see the sensor details, click on the 'down arrow' icon to **expand the white box** on the home screen.&#x20;
 * Alternatively, the device ID be found under **Settings > Sensor / Tank Settings**
 
+<img src=".gitbook/assets/20220323_101554.jpg" alt="" data-size="original">
+
 </details>
 
 <details>
 
 <summary>How do I know which model I have?</summary>
 
-Prior to 2022, only v1 and v2 WiFi models were sold - **v2 models use a submersible pressure sensor** with a cable. R3 models do not have an external cable - they use an internal radar sensor.
+Between 2019 and 2022, only v2 WiFi models were sold. The **v2 models use a submersible pressure sensor** with a cable. R3 models do not have an external cable - they use an internal radar sensor.
 
 **TIP**: if you are not sure, you can check the **device ID**:
 
-* v2 Sensors start with "esp-"
-* R3W sensors start with "R3W"
-* R3L sensors start with "R3L"
+* v2 Sensors start with "**esp-**"
+* R3W sensors start with "**R3W**"
+* R3L sensors start with "**R3L**"
+
+<img src=".gitbook/assets/v2_sensor.png" alt="" data-size="original">
+
+v2 WiFi Sensor shown - with 4m cable and submersible pressure sensor.
 
 </details>
 
@@ -159,6 +183,6 @@ Slow leaks are harder to detect. The best way to do this is to set the unit to u
 Slight **variations** between level readings of **1-2mm** can be expected. While the sensor readings are extremely stable, a small variation in reading height can have a big effect on the volume calculations - in litres.
 
 \
-E.g. a **1mm** change in reading height on a 25,000L tank represents approximately **10L**. Which is only 0.04% of the tank volume! Therefore a 40L volume variation with a 2 x 25,000L tank setup would not be uncommon.
+E.g. a **1mm** change in reading height on a 25,000L tank represents approximately **10L**. Which is only 0.04% of the tank volume! Therefore a **40L volume variation** with a 2 x 25,000L tank setup between readings would not be uncommon.
 
 </details>

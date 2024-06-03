@@ -44,7 +44,7 @@ If you **swipe down to refresh** the **dashboard** (main) screen of the **app**,
 
 ### 4) Set your tank dimensions
 
-* [See here for how to set tank dimensions](../tankmate-wifi-sensors/tankmate-r3-wifi-sensors/set-up-a-new-r3-sensor/tank-dimension-settings.md)
+* [See here for how to set tank dimensions](../tankmate-wifi-sensors/tankmate-r3-wifi-sensors/set-up-a-new-r3w-wifi-sensor/tank-dimension-settings.md)
 
 ### &#x20;5) Take an initial level reading on the tank
 
