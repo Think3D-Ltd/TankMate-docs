@@ -1,8 +1,8 @@
 ---
-description: Troubleshoot an existing LTE sensor
+description: TankMate R3L Cellular / LTE sensors
 ---
 
-# Check the status of an LTE Sensor
+# Hardware Status - R3L Cellular / LTE Sensor
 
 ### Check device connectivity with the status LED
 
@@ -32,6 +32,7 @@ If **NO LED** light is seen: open the sensor unit (see below) and check the batt
 ### Opening the R3 LTE Sensor Enclosure
 
 * Remove the **four M4 machine screws** (#1 Philips) that secure the enclosure lid to the base
+* If a battery clip is fitted - remove this by releasing the sides of the clip with a flat screwdriver
 * Carefully seperate the lid from the base
 
 {% hint style="warning" %}

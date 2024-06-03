@@ -1,8 +1,8 @@
 ---
-description: Installation guide for R3 LTE Sensors
+description: Installation and setup guide for R3 LTE Sensors
 ---
 
-# Set Up a New R3 LTE Sensor
+# Set Up a New R3L LTE / Cellular Sensor
 
 {% embed url="https://youtu.be/h5ngi0cKFk0" %}
 
@@ -10,12 +10,13 @@ description: Installation guide for R3 LTE Sensors
 See the Quick Start Guide pdf
 {% endfile %}
 
-### 1) Add a new LTE sensor to the TankMate APP
+### 1) Add a new TankMate R3L sensor to your account
 
 * **Download the TankMate app** from your app store
 * Create a **new account** with one of the "**Sign Up**" options
 * In the app, select **R3** - on the "Add New Sensor" screen&#x20;
 * Scan the **QR code** - located under the base of the sensor
+* A success message will be displayed in the app
 
 ### 2) Activate the sensor
 
@@ -32,7 +33,7 @@ If the **status LED blinks RED** after a minute, the sensor has **failed to conn
 {% hint style="info" %}
 Activating the sensor is **best done outdoors**. If necessary, move to an **area with better signal** to get an **initial connection**.
 
-You may need to repeat this step, if the initial attempt fails
+You may need to repeat this step, if the initial attempt fails.
 {% endhint %}
 
 {% hint style="success" %}
