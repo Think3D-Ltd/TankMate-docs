@@ -109,6 +109,14 @@ For an **R3L** **Cellular / LTE** sensor, the maximum number of connections per 
 
 </details>
 
+<details>
+
+<summary>My R3W sensor is not sending data. What should I do?</summary>
+
+
+
+</details>
+
 ### General Questions
 
 <details>
