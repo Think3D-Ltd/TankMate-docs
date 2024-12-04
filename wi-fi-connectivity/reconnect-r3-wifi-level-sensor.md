@@ -1,13 +1,13 @@
 ---
 description: >-
-  The app has two methods to reconnect a v2 sensor to a Wi-Fi network. The
+  The app has two methods to reconnect a v2 sensor to a WiFi network. The
   default mode is called BlueConnect, which uses a temporary bluetooth
   connection to send network credentials to the sensor.
 cover: ../.gitbook/assets/R3_blue (1).jpg
 coverY: 0
 ---
 
-# Reconnect - R3 Wi-Fi Level Sensor
+# Reconnect - R3 WiFi Level Sensor
 
 {% hint style="success" %}
 First, check that your sensor is not already connected! Press the **RESET button once** (short press) and watch the **status LED**. If you see a **solid BLUE (cyan)** colour for **5-10 seconds**, the unit is already **connected** to a Wi-Fi network. <img src="../.gitbook/assets/wifi_connect.gif" alt="" data-size="line">
@@ -22,11 +22,11 @@ First, check that your sensor is not already connected! Press the **RESET button
 * Follow the prompts in the app to scan and connect to the sensor. Ensure the status light on the sensor is still blinking. Select the TankMate device, and proceed to the network SSID and password page
 
 {% hint style="danger" %}
-**NOTE:** WiFi passwords that include the **$ symbol** are not currently supported by TankMate sensors. We recommend modifying the password, or setting up a guest network with a different password.
+**NOTE:** WiFi passwords that include the **$ symbol** are not currently supported by some olderTankMate sensors. We recommend modifying the password, or setting up a guest network with a different password.
 {% endhint %}
 
 {% hint style="info" %}
 For a more detailed outline of the BlueConnect process - [see here ](using-bluconnect.md)
 {% endhint %}
 
-![Slow blue blinking = ready to reconnect via BlueConnect](../.gitbook/assets/20220323\_101554.jpg)
+![Slow blue blinking = ready to reconnect via BlueConnect](../.gitbook/assets/20220323_101554.jpg)

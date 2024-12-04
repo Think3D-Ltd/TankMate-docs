@@ -1,10 +1,10 @@
 ---
 description: >-
-  Tips for troubleshooting a TankMate Wi-Fi connection - for TankMate v2 or R3W
+  Tips for troubleshooting a TankMate WiFi connection - for TankMate v2 or R3W
   models
 ---
 
-# Check Connectivity - v2 and R3W WiFi Sensors
+# Check Status - v2 and R3W WiFi Sensors
 
 ### Check the status of the WiFi sensor unit
 

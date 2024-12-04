@@ -1,13 +1,13 @@
 ---
 description: >-
-  The app has two methods to reconnect a v2 sensor to a Wi-Fi network. The
+  The app has two methods to reconnect a v2 sensor to a WiFi network. The
   default mode is called BlueConnect, which uses a temporary bluetooth
   connection to send network credentials to the sensor.
 cover: ../.gitbook/assets/DSCF8788_1024.jpg
 coverY: 0
 ---
 
-# Reconnect - v2 Wi-Fi Level Sensor
+# Reconnect - v2 WiFi Level Sensor
 
 {% hint style="success" %}
 First, check that your sensor is not already connected! Press the **RESET button once** (short press) and watch the **status LED**. If you see a **solid BLUE (cyan)** colour for **5-10 seconds**, the unit is already **connected** to the network
@@ -28,7 +28,7 @@ The firmware version no. can be seen on the (expanded) home screen of the app.
 {% endhint %}
 
 {% hint style="danger" %}
-**NOTE:** WiFi passwords that include the **$ symbol** are not currently supported by TankMate sensors. We recommend modifying the password, or setting up a guest network with a different password.
+**NOTE:** WiFi passwords that include the **$ symbol** are not currently supported by some older TankMate sensors. We recommend modifying the password, or setting up a guest network with a different password.
 {% endhint %}
 
 

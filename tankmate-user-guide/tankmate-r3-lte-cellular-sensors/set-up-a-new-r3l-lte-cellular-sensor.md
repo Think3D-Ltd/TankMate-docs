@@ -22,8 +22,8 @@ See the Quick Start Guide pdf
 
 * **Hold the RESET button** underneath the unit for **6+ seconds**
 * After releasing, the sensor will **beep twice**
-* The **status LED** will **blink **<mark style="color:green;">**GREEN**</mark> while it searches for a network. This can take up to a minute
-* Once the sensor **connects to a cellular network**, it will **blink **<mark style="color:blue;">**light BLUE**</mark> (cyan), and then become a <mark style="color:blue;">**solid BLUE**</mark> (cyan) colour for a few seconds<img src="../../.gitbook/assets/wifi_connect.gif" alt="" data-size="line">
+* The **status LED** will **blink&#x20;**<mark style="color:green;">**GREEN**</mark> while it searches for a network. This can take up to a minute
+* Once the sensor **connects to a cellular network**, it will **blink&#x20;**<mark style="color:blue;">**light BLUE**</mark> (cyan), and then become a <mark style="color:blue;">**solid BLUE**</mark> (cyan) colour for a few seconds<img src="../../.gitbook/assets/wifi_connect.gif" alt="" data-size="line">
 * Some **audible beeps** will also be heard at this point
 
 {% hint style="danger" %}

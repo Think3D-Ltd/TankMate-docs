@@ -6,7 +6,7 @@ description: Connect your TankMate sensor to a WiFi network (v2 / R3)
 
 {% hint style="warning" %}
 Your phone must have **Bluetooth turned ON**, as well as [**Location Services!**](enabling-location-services.md)\
-**Your WiFi network must** have [**2.4GHz enabled**](2.4ghz-wi-fi-network.md)**.**
+**Your WiFi network must** have [**2.4GHz enabled**](2.4ghz-wifi-network.md)**.**
 {% endhint %}
 
 {% hint style="info" %}
@@ -16,7 +16,7 @@ To edit the WiFi connection of an **existing** sensor:
 * Select "**Edit Network Settings**" - from the Sensor Settings section
 {% endhint %}
 
-* Make sure your sensor is in the correct mode for BluConnect - see details for [v2 sensors here](reconnect-v2-wi-fi-level-sensor.md), or [R3 sensors here](reconnect-r3-wi-fi-level-sensor.md)
+* Make sure your sensor is in the correct mode for BluConnect - see details for [v2 sensors here](reconnect-v2-wifi-level-sensor.md), or [R3 sensors here](reconnect-r3-wifi-level-sensor.md)
 * On the BluConnect screen - press the button to **"Initiate Bluetooth Connection".** This will create a temporary bluetooth connection between the phone and the sensor, to allow the phone to send the WiFi credentials to the sensor.&#x20;
 
 <figure><img src="../.gitbook/assets/Screen Shot 2023-12-20 at 7.43.47 AM (1).png" alt="" width="341"><figcaption></figcaption></figure>
@@ -64,7 +64,7 @@ A **success message** should be displayed in the app after 5-10 seconds. The **L
 * Check that [**location services**](enabling-location-services.md) are turned on
 * Don't use an **iPad**! These are not always compatible with our Bluetooth (BLE) protocols
 * Make sure you are **close to the sensor** (1-3 metres)
-* Check that the **sensor** is in the **correct mode** for BluConnect - see details for [v2 sensors here](reconnect-v2-wi-fi-level-sensor.md), or [R3 sensors here](reconnect-r3-wi-fi-level-sensor.md)
+* Check that the **sensor** is in the **correct mode** for BluConnect - see details for [v2 sensors here](reconnect-v2-wifi-level-sensor.md), or [R3 sensors here](reconnect-r3-wifi-level-sensor.md)
 
 #### The app is stuck spinning after I send the SSID / password
 

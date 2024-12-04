@@ -13,12 +13,12 @@ To reconnect an existing sensor - see the links below.
 For setting up a new sensor - see the section for V2 products here, or R3 products here.
 {% endhint %}
 
-{% content-ref url="reconnect-v2-wi-fi-level-sensor.md" %}
-[reconnect-v2-wi-fi-level-sensor.md](reconnect-v2-wi-fi-level-sensor.md)
+{% content-ref url="reconnect-v2-wifi-level-sensor.md" %}
+[reconnect-v2-wifi-level-sensor.md](reconnect-v2-wifi-level-sensor.md)
 {% endcontent-ref %}
 
-{% content-ref url="reconnect-r3-wi-fi-level-sensor.md" %}
-[reconnect-r3-wi-fi-level-sensor.md](reconnect-r3-wi-fi-level-sensor.md)
+{% content-ref url="reconnect-r3-wifi-level-sensor.md" %}
+[reconnect-r3-wifi-level-sensor.md](reconnect-r3-wifi-level-sensor.md)
 {% endcontent-ref %}
 
 {% content-ref url="check-status-v2-and-r3w-wifi-sensors.md" %}

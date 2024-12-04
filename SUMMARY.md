@@ -18,14 +18,14 @@
 * [Troubleshooting - FAQ](troubleshooting-faq.md)
 * [Wi-Fi Connectivity](wi-fi-connectivity/README.md)
   * [Check Status - v2 and R3W WiFi Sensors](wi-fi-connectivity/check-status-v2-and-r3w-wifi-sensors.md)
-  * [Reconnect - R3 Wi-Fi Level Sensor](wi-fi-connectivity/reconnect-r3-wi-fi-level-sensor.md)
-  * [Reconnect - v2 Wi-Fi Level Sensor](wi-fi-connectivity/reconnect-v2-wi-fi-level-sensor.md)
+  * [Reconnect - R3 WiFi Level Sensor](wi-fi-connectivity/reconnect-r3-wifi-level-sensor.md)
+  * [Reconnect - v2 WiFi Level Sensor](wi-fi-connectivity/reconnect-v2-wifi-level-sensor.md)
   * [Reconnect - v1 Level Sensor](wi-fi-connectivity/reconnect-v1-level-sensor.md)
   * [Firmware Update - August 2023](wi-fi-connectivity/firmware-update-august-2023.md)
   * [Intermittent Data Issue - WiFi](wi-fi-connectivity/intermittent-data-issue-wifi.md)
   * [Using BluConnect](wi-fi-connectivity/using-bluconnect.md)
   * [Enabling Location Services](wi-fi-connectivity/enabling-location-services.md)
-  * [2.4GHz Wi-Fi Network](wi-fi-connectivity/2.4ghz-wi-fi-network.md)
+  * [2.4GHz WiFi Network](wi-fi-connectivity/2.4ghz-wifi-network.md)
 
 ## App User Guides
 

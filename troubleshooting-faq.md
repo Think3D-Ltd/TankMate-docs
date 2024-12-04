@@ -55,8 +55,8 @@ Any phone or web browser can log in and see the same tank data, provided you are
 
 See links below for reconnecting a TankMate product to a network:
 
-* [R3 Sensor](wi-fi-connectivity/reconnect-r3-wi-fi-level-sensor.md)
-* [v2 Sensor](wi-fi-connectivity/reconnect-v2-wi-fi-level-sensor.md)
+* [R3 Sensor](wi-fi-connectivity/reconnect-r3-wifi-level-sensor.md)
+* [v2 Sensor](wi-fi-connectivity/reconnect-v2-wifi-level-sensor.md)
 * [v1 Sensor](wi-fi-connectivity/reconnect-v1-level-sensor.md)
 
 </details>
