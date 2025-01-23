@@ -34,6 +34,7 @@
   * [Typical Tank Dimensions](app-user-guides/mobile-app/typical-tank-dimensions.md)
   * [Changing a TankMate Sensor](app-user-guides/mobile-app/changing-a-tankmate-sensor.md)
   * [Multiple Sensors](app-user-guides/mobile-app/multiple-sensors.md)
+  * [Deleting a TankMate Account](app-user-guides/mobile-app/deleting-a-tankmate-account.md)
 * [TankMate API](app-user-guides/tankmate-api.md)
 
 ## Policies
