@@ -5,8 +5,26 @@ description: Replace the battery on a v2 Sensor
 # v2 Battery Replacement
 
 {% hint style="info" %}
-Prior to October 2021, TankMate v2 sensors were supplied with a single C size, 3.6V lithium battery. These can be hard to source, and there are a variety of similar batteries that do not work in a TankMate sensor. **We recommend installing the AA battery adapter** - [sold here](https://tankmate.co.nz/collections/accessories/products/replacement-battery-pack?variant=40113642504398).
+Prior to October 2021, TankMate v2 sensors were supplied with a single C size, 3.6V lithium battery. These can be hard to source, and there are a variety of similar batteries that do not work in a TankMate sensor. **We recommend removing the C-size battery completely, and installing a 3 x AA battery adapter.**
 {% endhint %}
+
+**Recommended AA Batteries:  Energizer Ultimate Lithium L91 (AA size, 1.5v)** / or **Alkaline** type
+
+{% hint style="warning" %}
+Please check how your existing battery is connected to the board! Later models use a white plug, while&#x20;
+
+v2.01 and v2.30 PCBs with **screw terminals -** use this type:
+
+* JayCar - [3 X AA Side by Side Flat Battery Holder](https://www.jaycar.co.nz/3-x-aa-side-by-side-flat-battery-holder/p/PH9274)
+
+
+
+v2.60 PCBs require a **JST PH 2.0** **plug-in connector** **-** use this type:
+
+* DigiKey - [1738-FIT0619-ND](https://www.digikey.co.nz/en/products/detail/dfrobot/FIT0619/10230092?s=N4IgTCBcDaIIwHYDMAOAtAMQJIBUAMAbHAJxoByAIiALoC%2BQA)
+{% endhint %}
+
+![](<../../../.gitbook/assets/image (1).png>)
 
 {% hint style="warning" %}
 Note: the following battery types **will not be suitable** to power a TankMate unit
@@ -16,15 +34,9 @@ Note: the following battery types **will not be suitable** to power a TankMate u
 * **ER26500** C-size lithium
 {% endhint %}
 
-**Tools required:** Phillips / Pozi screwdriver #2; Flat screwdriver #1
-
-**Recommended AA Batteries:  Energizer Ultimate Lithium L91 (AA size, 1.5v)** / or Alkaline type
-
 ![](../../../.gitbook/assets/image.png)
 
-{% hint style="info" %}
-Models with a v2.60 PCB use a plug in connector for the battery, and do not have screw terminals
-{% endhint %}
+**Tools required:** Phillips / Pozi screwdriver #2; Flat screwdriver #1
 
 1. Open the sender unit - remove the 4 x screws on the lid&#x20;
 2. Turn the unit OFF, using the slide switch&#x20;
@@ -37,5 +49,3 @@ Models with a v2.60 PCB use a plug in connector for the battery, and do not have
 9. Insert the 3 x AA cells&#x20;
 10. Power the unit ON (check status LED). If the LED does not blink, check the battery connections&#x20;
 11. Close the lid, ensuring the seal is in place. Replace and tighten the 4 x screws
-
-![](<../../../.gitbook/assets/image (1).png>)
