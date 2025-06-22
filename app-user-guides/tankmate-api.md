@@ -4,19 +4,13 @@ description: Using the TankMate API service
 
 # TankMate API
 
-
-
 {% hint style="success" %}
-An API subscription costs $49 / year, per account. This subscription is managed and billed through the new TankMate web app / portal - due for release in July 2024.
-{% endhint %}
-
-{% hint style="info" %}
-Note: API keys are free to trial for 30 days. Thereafter, an API subscription will be required.
+A TankMate Premium Web Subscription is required to use the API service - AUD 49 / year, per account. This subscription is managed and billed through the new TankMate web app / portal.
 {% endhint %}
 
 ### Accessing your API Key and User ID
 
-To access your sensor data, a valid API Key is required, as well as your User ID (uid).  These can be accessed via the [TankMate web app](https://tankmateapp.co.nz/), under the Settings tab - see image below.
+To access your sensor data, a valid API Key is required, as well as your User ID (uid).  These can be accessed via the [TankMate web portal](https://tankmate.app/), under the Account tab.
 
 The Tankmate API includes two endpoints:
 
@@ -27,6 +21,3 @@ The Tankmate API includes two endpoints:
 
 <figure><img src="../.gitbook/assets/Screen Shot 2023-12-08 at 10.06.07 PM.png" alt=""><figcaption><p>"status" and "level-data" endpoints</p></figcaption></figure>
 
-
-
-<figure><img src="../.gitbook/assets/Screen Shot 2023-12-08 at 10.30.45 PM.png" alt=""><figcaption><p>API Key accessed via the TankMate web app</p></figcaption></figure>
